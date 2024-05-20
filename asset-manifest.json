@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nu-disclosure-website/static/css/main.3c54718f.css",
+    "main.css": "/nu-disclosure-website/static/css/main.b563b36a.css",
     "main.js": "/nu-disclosure-website/static/js/main.1035f961.js",
     "static/media/anek-telugu-telugu-400-normal.woff": "/nu-disclosure-website/static/media/anek-telugu-telugu-400-normal.924a934639071eda00e1.woff",
     "static/media/anek-telugu-telugu-400-normal.woff2": "/nu-disclosure-website/static/media/anek-telugu-telugu-400-normal.2ca6d617b538223733f9.woff2",
@@ -9,11 +9,11 @@
     "static/media/anek-telugu-latin-ext-400-normal.woff": "/nu-disclosure-website/static/media/anek-telugu-latin-ext-400-normal.25e774293f4b53bbcceb.woff",
     "static/media/anek-telugu-latin-ext-400-normal.woff2": "/nu-disclosure-website/static/media/anek-telugu-latin-ext-400-normal.90d2358a62bfb9d6dcbb.woff2",
     "index.html": "/nu-disclosure-website/index.html",
-    "main.3c54718f.css.map": "/nu-disclosure-website/static/css/main.3c54718f.css.map",
+    "main.b563b36a.css.map": "/nu-disclosure-website/static/css/main.b563b36a.css.map",
     "main.1035f961.js.map": "/nu-disclosure-website/static/js/main.1035f961.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c54718f.css",
+    "static/css/main.b563b36a.css",
     "static/js/main.1035f961.js"
   ]
 }
