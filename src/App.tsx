@@ -11,146 +11,146 @@ import HomepageFooter from './components/FooterParts/HomepageFooter'
 
 const App = () => {
   const rows : IData[] = [{ // in reality this will be an API fetch
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER ioshafaijskfghndsakfndsajkfadssjfdkanrjsgnrahjskbfnjskagnjekrasngjfksdfdnasjkfdsanfksad",
     percentage : "33%",
     link : ["https://www.google.com"]  
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
   },
   
   {
-    companyName : "BEEHIVE",
+    companyName : "Some Evil Company",
     industry : "WEAPONS MANUFACTURER",
     percentage : "33%",
     link : ["https://www.google.com"]
