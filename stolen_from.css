@@ -1,0 +1,153 @@
+.table-header-primary-column {
+    outline : 1px solid black;
+
+    /* border : 1px solid black; */
+    position : relative;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 2.2vw;
+
+
+    width : 20%;
+
+
+
+    right : var(--company-table-primary-col-right);
+    bottom : var(--table-header-bottom);
+
+}
+
+.table-header-secondary-column {
+    border : 1px solid black;
+
+    position : relative;
+    width : 13%;
+    text-align: center;
+
+
+    font-weight: 525;
+    font-size: 2.05vw;
+    /* color : #393939; */
+    color : #a0a0a0;
+    /* text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4); */
+
+
+    left : var(--company-table-secondary-col-left);
+    bottom : var(--table-header-bottom);
+
+
+}
+
+.table-header-tertiary-column {
+    border : 1px solid black;
+
+    position : relative;
+    width : 8%;
+
+    text-align: center;
+
+    font-weight: 525;
+    font-size: 2.05vw;
+    color : #a0a0a0;
+
+    
+    left : var(--company-table-tertiary-col-left);
+    bottom : var(--table-header-bottom);
+
+}
+
+
+.companies-table-row-container {
+    outline : 1px solid black;
+
+
+    /* border : 1px solid #4E2A84; */
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px #4e2a84;
+    position: relative;
+    background-color: #F1F1F1;
+
+    display: flex;
+    flex-direction: row;
+
+    margin: 2%;
+
+    width : 92%;
+    height : 6%;
+    left : 2%;
+
+
+
+}
+
+.table-row {
+    width : 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.table-row-company-name {
+    position : relative;
+    outline : 1px solid black;
+
+    display : flex;
+    justify-content: left;
+    align-items: center;
+
+    padding-left: 1%;
+
+    margin : 1%;
+    width : 20%;
+    height : 70%;
+
+    font-size: 2vw;
+    font-weight: 550;
+
+
+}
+
+.table-row-percentage {
+    outline : 1px solid black;
+    position : relative;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+
+    width : 8%;
+    height  : 90%;
+
+
+    text-align: center;
+
+    left : 52%;
+
+
+}
+
+
+.table-row-link {
+    outline : 1px solid black;
+    left : 62%;
+    width : 5vw;
+}
+
+.companies-table-header-container {
+    border : 3px solid #828282;
+    border-radius: 8px;
+    /* box-shadow: 0px 0px 3px #4e2a84; */
+    position: relative;
+    background-color: #F1F1F1;
+
+    display: flex;
+    flex-direction: row;
+
+    width : 96%;
+    height : 9%;
+    right : 2%;
+    left : 2%;
+
+}
