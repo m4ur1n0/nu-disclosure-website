@@ -1,0 +1,802 @@
+body, html, .homepage-full {
+    /* background-color: #4E2A84; */
+    --paragraph-font-size : calc(15px + 0.9vw);
+    --paragraph-title-font-size : calc(30px + 1.1vw);
+    --company-table-primary-col-right : 24vw;
+    --company-table-secondary-col-left : 20%;
+    --company-table-tertiary-col-left : 25%;
+    --table-header-bottom : 1vw;
+
+    margin : 0;
+    padding : 0;
+
+
+    background-color: #F1F1F1;
+    align-items: center;
+    justify-content: center;
+    height: 100vw;
+
+
+}
+
+@font-face {
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    src: url();
+}
+
+p, h1, h5, h4, h3 {
+    /* set font */
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.banner {
+    position : relative;
+    display: flex;
+    width : 100%;
+    height : 20vw;
+    margin : 0;
+    /* padding : -50; */
+    background-color : #4E2A84;
+    align-items: center;
+
+    padding-top: 5%;
+    padding-bottom : 10vw;
+
+    min-height: 200px;
+}
+
+.banner-text-window {
+    position : relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 60%;
+    height : 75%;
+    background-color: #F1F1F1;
+    overflow: hidden;
+
+    right: 20%;
+    left: 20%;
+    top : 5%;
+    bottom: 10%;
+
+    border-radius: 10px;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+
+
+}
+
+.banner-text {
+    /* border: 1px solid black; */
+
+    position: relative;
+    text-align: center;
+    display: inline-block;
+
+
+    width: 60vw;
+    height: 40vw;
+
+    top: 8vw;
+    /* right: 10%;
+    left: 10%; */
+
+
+    min-height : 90%;
+    min-width: 80%;
+}
+
+.webpage-title {
+    font-weight : bold;
+
+    font-size: 3vw;
+
+}
+
+.banner-subtext {
+    color : #828282;
+    padding-bottom: 5%;
+    font-size: 1.5vw;
+
+
+
+}
+.button-link {
+    border : 1px solid black;
+
+    cursor : pointer;
+}
+
+.button-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: black;
+    padding-bottom: 1%;
+    padding-top: 1%;
+
+    text-align: center;
+
+}
+
+.form-button {
+    align-items: center;
+    justify-content: center;
+
+
+    
+    color : white;
+
+    width: 10vw;
+    height: 4vw;
+
+    /* right: 45vw; */
+    left: 25vw;
+    bottom: 2.5vw;
+
+
+    cursor: pointer;
+    border-radius: 9px;
+    transition: background-color 0.1s ease;
+    
+}
+
+.form-button-text {
+    outline : 1px solid white;
+    justify-content: center;
+    align-items: center;
+
+    height : 100%;
+    width : 100%;
+    /* font-size: 50%; */
+
+
+
+}
+
+.fontawesome-icon-banner {
+    /* outline : 1px solid white; */
+    height : 66%;
+    margin : 6%;
+
+}
+
+.form-button:hover {
+    background-color : #333333;
+    /* tried it with nu purple below -- bad*/
+    /* background-color: #4E2A84; */
+}
+
+
+.form-button-text {
+    position: relative;
+    font-size: 1.8vw;
+    font-weight: 500;
+
+    color: white;
+
+}
+
+/* NOW ONTO THE PARAGRAPH SECTIONS */
+
+/*
+.why-divest-text-paragraph
+.why-divest-title
+.why-divest-content
+
+p
+h1
+*/
+
+.homepage-text-sections {
+    padding-top: 3vw;
+}
+
+
+.paragraph-section-container {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    display: inline-block;
+    padding-left: 3vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+
+
+    overflow: auto;
+    width: 85vw;
+
+    left: 5vw;
+
+
+
+    /* border : 1px solid black; */
+
+
+}
+
+.paragraph-title {
+    font-weight: bold;
+    font-size: var(--paragraph-title-font-size);
+
+}
+
+.paragraph-content {
+    color: #828282;
+    /* padding-left: 1vw; */
+    font-size: var(--paragraph-font-size);
+    font-weight: 100;
+}
+
+/* .paragraph-content::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%; 
+    width: 80%; 
+    height: 2px;
+    background-color: black;
+} */
+
+.email-template-section {
+    position: relative;
+    display : flex;
+    flex-direction: row;
+    width : 80vw;
+    left: 10vw;
+
+    max-height : 30vw;
+
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@keyframes scaleUp {
+    0% {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+}
+
+.email-template-image {
+
+
+    width : 40%;
+    border-radius: 8px;
+    outline: 1px solid #d6d6d6;
+
+    box-shadow : 0px 0px 4px rgba(0, 0, 0, 0.4);
+
+    transition: transform 0.3s ease;
+    cursor : pointer;
+    /* animation: scaleUp 0.3s ease forwards; */
+
+}
+
+.email-template-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+
+
+
+}
+
+.email-template-paragraph {
+    
+}
+
+.email-template-paragraph-title {
+    font-size: 3vw;
+}
+
+.email-template-paragraph-content {
+    font-size: 1.8vw;
+    
+}
+
+/* NOW STYLE THE POP UP BOXES */
+
+.pop-up-box {
+    outline : 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+
+
+    max-height: 80%;
+    max-width: 85%;
+    overflow: scroll;
+}
+
+
+/* NOW ONTO THE TABLE STYLES */
+
+
+.companies-table {
+    border-radius: 10px;
+    border: 1px solid #d6d6d6;
+    position: relative;
+    background-color: #dfdfdf;
+    overflow: hidden;
+
+    display : flex;
+    flex-direction: column;
+    /* overflow: scroll; */
+
+    justify-content: top;
+
+    width : 80vw;
+    height: 40vw;
+    min-height: 350px;
+
+    /* margin : 1%; */
+
+    left : 10%;
+    right : 10%;
+    top : 3%;
+
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.table-wrapper {
+    /* outline : 1px solid pink; */
+    position : relative;
+    justify-content: top;
+
+    width : 100%;
+    height: 100%;
+}
+
+
+.table-header-container {
+    /* border : 2px solid black; */
+    position : relative;
+    
+    display: table-row;
+    text-align: center;
+
+
+
+    width : 100%;
+    height : 20%;
+
+}
+
+.table-header {
+
+    position : relative;
+    width : 100%;
+    height : 100%;
+    display : flex;
+    flex-direction: row;
+
+    z-index: 999;
+}
+
+.table-header-cell {
+    /* border : 1px solid green; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display : table-cell;
+
+
+    width : 100%;
+
+
+}
+
+/*
+NOW NEED TO STYLE THE TABLE ROWS 
+
+
+*/
+
+.table-body {
+    /* outline: 1px solid blue; */
+    overflow-y: scroll;
+
+    height : 100%;
+    width : 100%;
+}
+
+.table-row {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+}
+
+.table-row-item-even {
+    /* outline: 1px solid black; */
+    width: 100%;
+}
+
+
+.companyName-row-cell {
+    position : relative;
+    width : 48vw;
+    max-width: 48vw;
+
+
+
+    justify-items: center;
+}
+
+.percentage-row-cell {
+    position : relative;
+
+    width : 12vw;
+    max-width: 12vw;
+
+}
+
+.industry-row-cell {
+    position : relative;
+
+    width : 20vw;
+    max-width: 20vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*
+STYLE THE DIALOGUE BOX
+*/
+
+@keyframes scaleUp {
+    0% {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+}
+
+.link-dialogue-box {
+    position : absolute;
+    background : white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+    padding : 1%;
+
+    justify-self: center;
+    align-self: center;
+
+    height : 30vw;
+    width : 40vw;
+
+    min-height: 275px;
+
+    transition: transform 0.3s ease;
+    animation: scaleUp 0.3s ease forwards;
+    transform: scale(0.8);
+    opacity: 0.5;
+
+    display: none;
+    
+}
+
+.link-db-visible {
+    /* outline : 2px solid black; */
+    position : absolute;
+    display : flex;
+    flex-direction: column;
+    background : white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); */
+
+    padding : 1%;
+
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+
+    height : 30vw;
+    width : 40vw;
+
+    /* 
+    TABLE SECTION PROPORTIONS
+    width : 80vw;
+    height: 40vw; 
+    */
+
+    right : 20vw;
+    bottom : 5vw;
+
+    font-size: 1vw;
+
+    border-radius: 8px;
+    z-index: 999;
+}
+
+
+
+.link-dialogue-box-close {
+    outline: 3px solid #d6d6d6;
+    color : #d6d6d6;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* font-family: 'GlacialIndifferenceRegular', sans-serif; */
+
+    width : 2vw;
+    height : 2vw;
+
+    border-radius: 50%;
+
+
+    top: 2%;
+    left : 45%;
+
+    cursor : pointer;
+}
+
+.info-box-title {
+    /* outline : 1px solid black; */
+    font-size: 2.8vw;
+    text-decoration: underline;
+    font-weight: 530;
+
+    position: relative;
+
+
+    bottom : 12%;
+}
+
+.info-box-industry {
+    /* outline : 1px solid black; */
+    color : #828282;
+    position: relative;
+
+    font-size: 0.8vw;
+
+    bottom : 19%;
+
+    max-width: 80%;
+    align-self: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
+.info-box-subtitle {
+    /* outline : 1px solid black; */
+    position: relative;
+    color : #828282;
+
+
+    bottom : 22%;
+    height: 5%;
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 999;
+
+}
+
+.link-box-title {
+    /* outline: 1px solid black; */
+    position: relative;
+
+    text-align: left;
+    text-indent: 5%;
+
+    font-weight: 550;
+    bottom : 1%;
+
+}
+
+.seperator {
+    width: 80%;
+    color : #828282;
+    outline: 1px solid #828282;
+    position : relative;
+    left : 10%;
+    bottom: 3%;
+    margin-bottom: 6%;
+
+}
+
+
+.info-box-link-box {
+    position: absolute;
+
+    width : 70%;
+    height : 55%;
+    background-color: #d6d6d6;
+    border-radius: 6px; 
+
+    top : 35%;
+
+    overflow: scroll;
+
+
+}
+
+.link-in-link-list {
+    position: relative;
+    font-size: 1.2vw;
+
+}
+
+.actual-fucking-link {
+    position: relative;
+    right : 20%;
+
+}
+
+/*
+NOW TO STYLE THE FOOTER
+*/
+
+.homepage-footer {
+    background-color: #4E2A84;
+    position: relative;
+    margin-top: 10%;
+    font-family: 'GlacialIndifferenceRegular', sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20vw;
+}
+
+
+.footer-left-side {
+    /* outline: 1px solid black; */
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.left-side-title {
+    /* outline: 1px solid black; */
+    position: relative;
+    color: white;
+    font-size: 1.8vw;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+}
+
+.footer-left-side-social-medias {
+    /* outline: 1px solid black; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+    width: 50%;
+    top: 25%;
+    left: 10%;
+}
+
+.instagram-icon {
+    /* outline: 1px solid black; */
+    font-size: 3vw;
+    color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    cursor: pointer;
+}
+
+.link-icon {
+    /* outline: 1px solid black; */
+    font-size: 2.7vw;
+    color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    cursor: pointer;
+}
+
+
+.footer-right-side {
+    /* outline: 1px solid black; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: right;
+    text-align: right;
+}
+
+.footer-right-side-title {
+    /* outline: 1px solid black; */
+    position: relative;
+    color: white;
+    font-size: 1.8vw;
+    width: fit-content;
+    text-align: center;
+    top: 20%;
+    left: 65%;
+}
+
+.footer-affiliates {
+    /* outline: 1px solid black; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    top: 18%;
+    align-items: flex-end;
+}
+
+.footer-affiliate {
+    /* outline: 1px solid black; */
+    font-size: 1.4vw;
+    position: relative;
+    /* padding-right: 22%; */
+    margin: 0;
+    margin-bottom: 2%;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    float: right;
+}
+
+.footer-affiliate:hover, .link-icon:hover, .instagram-icon:hover {
+    color :rgba(255, 255, 255, 0.356);
+}
+
+.footer-ownership {
+    /* outline: 1px solid black; */
+    position: absolute;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    width: 28%;
+    height: 20%;
+    left: 36%;
+    top: 81%;
+}
+
+.footer-copyright {
+    margin: 0;
+    margin-bottom: 2%;
+    color: rgba(255, 255, 255, 0.356);
+    font-size: 1vw;
+}
+
+.made-by-me {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.356);
+    font-size: 0.85vw;
+}

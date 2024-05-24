@@ -27,8 +27,15 @@ const TableRowItemEven = styled("tr", {
   },
 
   "& td": {
-    fontSize: "1.3vw",
-    padding: "1.2%"
+    fontSize: "1.4vw",
+    padding: "1.2%",
+    verticalAlign: "middle",
+
+
+
+  },
+  "& td:first-of-type": {
+    fontSize: "1.8vw", // Larger font size for the first cell
   },
   width: "100%"
 });
@@ -41,6 +48,7 @@ const TableRowItemOdd = styled("tr", {
   cursor: "pointer",
   backgroundColor: "white",
 
+
   // transition: "transform 0.1s ease-in-out",
 
   "&:hover": {
@@ -51,9 +59,15 @@ const TableRowItemOdd = styled("tr", {
   },
 
   "& td": {
-    fontSize: "1.3vw",
-    padding: "1.2%"
+    fontSize: "1.4vw",
+    padding: "1.2%",
+    verticalAlign: "middle"
+
   },
+  "& td:first-of-type": {
+    fontSize: "1.8vw", // Larger font size for the first cell
+  },
+
 
 });
 
