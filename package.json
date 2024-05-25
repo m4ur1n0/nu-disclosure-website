@@ -9,10 +9,9 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "vite build",
+    "start" : "vite"
+
   },
   "dependencies": {
     "@fontsource/anek-telugu": "^5.0.13",
