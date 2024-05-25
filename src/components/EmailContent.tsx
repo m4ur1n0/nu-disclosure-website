@@ -19,7 +19,7 @@ const EmailContent: React.FC = () => {
   Sincerely,
   [Your Name]`;
   
-    const mailtoLink = `mailto:${emailAddresses}?cc=${ccAddresses}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const mailtoLink = `mailto:${emailAddresses}?cc=${ccAddresses}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
 
   const emailStyle: React.CSSProperties = { color: 'blue', textDecoration: 'underline' };
@@ -27,16 +27,17 @@ const EmailContent: React.FC = () => {
 
   return (
     // MAKE THIS FONT GLACIALINDIFFERENCE
-    <div style={{ fontFamily: 'Arial, sans-serif', whiteSpace: 'pre-wrap' }}>
-        <a href={mailtoLink} target="_blank">Send Email</a>
+    <div style={{ fontFamily: 'Glacial, sans-serif', whiteSpace: 'pre-wrap' }}>
+        <a href={mailtoLink} target="_blank" className='mailto-link'>Load Email Automatically</a>
         <br />
         <br />
-        Or:
+        <strong>Or:</strong>
         <br />
         <br />
       To: <span style={emailStyle}>investments@northwestern.edu</span>, <span style={emailStyle}>nuprovost@northwestern.edu</span>
       <br />
       Cc: <span style={emailStyle}>nudisclosure@gmail.com</span>
+      <br />
       <br />
       <span style={boldStyle}>**Please remember to cc the above address so we can track request responses from NU</span>
       <br />

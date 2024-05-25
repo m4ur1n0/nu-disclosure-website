@@ -21,7 +21,7 @@ body, html, .homepage-full {
 
 @font-face {
     font-family: 'GlacialIndifferenceRegular', sans-serif;
-    src: url();
+    src: url('../assets/glacial-indifference/GlacialIndifference-Regular.otf') format('opentype');
 }
 
 p, h1, h5, h4, h3 {
@@ -314,7 +314,7 @@ h1
 /* NOW STYLE THE POP UP BOXES */
 
 .pop-up-box {
-    outline : 1px solid black;
+    outline : 1px solid #d6d6d6;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -329,6 +329,50 @@ h1
     max-height: 80%;
     max-width: 85%;
     overflow: scroll;
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.container::-webkit-scrollbar {
+   display : none;
+}
+
+.pop-up-box-close-button {
+    outline: 3px solid #d6d6d6;
+    color : #d6d6d6;
+    position:fixed;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* font-family: 'GlacialIndifferenceRegular', sans-serif; */
+
+    width : 2vw;
+    height : 2vw;
+
+    border-radius: 50%;
+
+    left: 93%;
+
+    cursor : pointer;
+
+}
+
+.pop-up-box-close-x-button {
+
+}
+
+.pop-up-box-content {
+    padding : 1.5%;
+    font-size: 1.2vw;
+}
+
+.mailto-link {
+    font-size: 1.3vw;
+    color : blue;
 }
 
 
